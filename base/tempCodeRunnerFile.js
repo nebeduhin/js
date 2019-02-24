@@ -21,7 +21,7 @@ let appData = {
 };
 
 function choosExpenses () {
-    for(i = 0; i < 2; i++) {
+    for(i = 0; i < 3; i++) {
         let a = prompt ("Most important expenses title", ""),
             b = +prompt ("How match?", "");
         if( (typeof(a)) === 'string' && (typeof(a)) != null && (typeof(b)) != null
